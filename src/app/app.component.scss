@@ -80,6 +80,10 @@ body {
     transform-style: preserve-3d;
     transition: transform 0.5s;
   }
+
+  .border-radius{
+    margin-right: 20px;
+  }
   
   .carousel-item.active {
     transform: translateZ(0);
@@ -201,8 +205,8 @@ body {
     position: absolute;
     top: 65px;
     right: 50px;
-    background-color: yellow;
-    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(224, 191, 245);
+    border: 3px solid rgb(18, 3, 3);
     border-radius: 5px;
     padding: 40px;
     display: none;
